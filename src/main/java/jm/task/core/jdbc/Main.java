@@ -13,10 +13,10 @@ public class Main {
 
         List<User> userList = new ArrayList<>();
 
-        userList.add(new User("John" , "Doe"     , (byte) 25));
-        userList.add(new User("Jane" , "Smith"   , (byte) 30));
-        userList.add(new User("David", "Johnson" , (byte) 35));
-        userList.add(new User("Sarah", "Williams", (byte) 28));
+        userList.add(new User("Marat" , "SuperMentor"     , (byte) 34));
+        userList.add(new User("Artem" , "Krasava"   , (byte) 33));
+        userList.add(new User("Alex", "Fefelov" , (byte) 58));
+        userList.add(new User("Sergei", "Gousev", (byte) 31));
 
         UserService userService = UserServiceImpl.getInstance();
 
